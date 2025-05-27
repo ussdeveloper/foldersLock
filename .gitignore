@@ -1,0 +1,33 @@
+# Pliki generowane przez CMake
+build/
+
+# Pliki wykonywalne (jeśli nie są w build/)
+FoldersLock.exe # Zmieniono nazwę
+FoldersLock     # Zmieniono nazwę
+create_dirs.exe # Usunięto starą nazwę (na wszelki wypadek)
+create_dirs     # Usunięto starą nazwę (na wszelki wypadek)
+
+# Pliki obiektowe i biblioteki
+*.o
+*.obj
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Pliki generowane przez IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.vcxproj*
+
+# Logi i pliki tymczasowe
+*.log
+*.tmp
+*.temp
+
+# Specyficzne dla systemu macOS
+.DS_Store
