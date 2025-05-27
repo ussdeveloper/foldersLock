@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(FoldersLock LANGUAGES CXX) # Zmieniono nazwę projektu
+project(folders-lock LANGUAGES CXX) # Zmieniono nazwę projektu
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(FoldersLock main.cpp) # Zmieniono nazwę pliku wykonywalnego
+add_executable(folders-lock main.cpp) # Zmieniono nazwę pliku wykonywalnego
 
-set_target_properties(FoldersLock PROPERTIES
-    OUTPUT_NAME "FoldersLock" # Zmieniono nazwę wyjściową
+set_target_properties(folders-lock PROPERTIES
+    OUTPUT_NAME "folders-lock" # Zmieniono nazwę wyjściową
     # DEBUG_POSTFIX "_d"
 )
 

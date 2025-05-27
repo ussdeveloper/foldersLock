@@ -1,12 +1,11 @@
-<<<<<<< HEAD
 # Pliki generowane przez CMake
 build/
 
 # Pliki wykonywalne (jeśli nie są w build/)
-FoldersLock.exe # Zmieniono nazwę
-FoldersLock     # Zmieniono nazwę
-create_dirs.exe # Usunięto starą nazwę (na wszelki wypadek)
-create_dirs     # Usunięto starą nazwę (na wszelki wypadek)
+folders-lock.exe # Zmieniono nazwę
+folders-lock     # Zmieniono nazwę
+FoldersLock.exe # Usunięto starą nazwę
+FoldersLock     # Usunięto starą nazwę
 
 # Pliki obiektowe i biblioteki
 *.o
@@ -32,37 +31,3 @@ create_dirs     # Usunięto starą nazwę (na wszelki wypadek)
 
 # Specyficzne dla systemu macOS
 .DS_Store
-=======
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
->>>>>>> 7c629265ac791d4d4d1d464642ee883d119154b1

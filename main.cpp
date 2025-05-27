@@ -90,7 +90,7 @@ void printProgress(long long dirsCreated, long long totalDirsToCreate, int curre
 
     std::ostringstream oss;
     // currentProcessingLevel is the level of directories being worked on (1-indexed)
-    oss << "Creating (Level " << currentProcessingLevel << "/" << overallMaxDepth << "): [";
+    oss << "Creating (Depth " << overallMaxDepth << "): [";
     for (int i = 0; i < barWidth; ++i) {
         if (i < filledChars) oss << "#";
         else oss << "-";
@@ -111,12 +111,12 @@ int main(int argc, char* argv[]) {
     int depth = 4; // Default depth
 
     if (argc < 2) {
-        std::cerr << "Usage: " << (argc > 0 ? argv[0] : "FoldersLock.exe") << " <root_directory_name_or_path> [depth]" << std::endl;
+        std::cerr << "Usage: " << (argc > 0 ? argv[0] : "folders-lock.exe") << " <root_directory_name_or_path> [depth]" << std::endl;
         std::cerr << "  <root_directory_name_or_path>: Mandatory. The name of or path to the root directory." << std::endl;
         std::cerr << "  [depth]: Optional. The number of subdirectory levels. Default is " << depth << "." << std::endl;
         std::cerr << "\nExample usage:" << std::endl;
-        std::cerr << "  " << (argc > 0 ? argv[0] : "FoldersLock.exe") << " my_data_directory" << std::endl;
-        std::cerr << "  " << (argc > 0 ? argv[0] : "FoldersLock.exe") << " C:\\\\path\\\\to\\\\directory 3" << std::endl;
+        std::cerr << "  " << (argc > 0 ? argv[0] : "folders-lock.exe") << " my_data_directory" << std::endl;
+        std::cerr << "  " << (argc > 0 ? argv[0] : "folders-lock.exe") << " C:\\\\path\\\\to\\\\directory 3" << std::endl;
         return 1;
     }
 
