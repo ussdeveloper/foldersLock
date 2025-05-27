@@ -130,4 +130,4 @@ my_root/
     └── 9/
 ```
 
-A progress bar will indicate the creation process, showing the current level being processed and the percentage completion.
+A progress bar will indicate the creation process, showing the target depth and the percentage completion.
